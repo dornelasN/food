@@ -2,7 +2,6 @@
 <div class="container">
   <div class="row">
     <div class="col-md-12">
-      <h3>Food is ready!</h3>
       <app-recipes *ngIf="loadedTab === 'recipe'"></app-recipes>
       <app-shopping-list *ngIf="loadedTab !== 'recipe'"></app-shopping-list>
     </div>
